@@ -1,0 +1,39 @@
+* {
+  font-family: "Public Sans";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 29px 29px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 21px;
+  position: absolute;
+  /* move it halfway across the nav width -> pull it back by half of its own width  */
+  left: 50%;
+  transform: translateX(-50%);
+  /* slide a little more to the left:
+  margin-left: -65px; */
+  top: 5%;
+}
+
+nav a {
+  color: gray;
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
